@@ -4,8 +4,9 @@ package com.example.todo_api_lecture.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
-
+@ToString
 @Setter
 @Getter
 @Entity
